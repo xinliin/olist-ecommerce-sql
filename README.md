@@ -62,12 +62,13 @@ Health & Beauty and Watches & Gifts dominated revenue, while tech accessories ra
 
 ---
 
-### Q4 — Lowest-Rated Categories vs Late Delivery Rate
-**SQL skills:** Multi-CTE, 5-table `JOIN`, `AVG`, `ROUND`
+### Q4 — Late Delivery vs Customer Review Score
+**SQL skills:** `CASE WHEN`, `JOIN`, `AVG`, `GROUP BY`
 
-- **Security & Services** had the lowest average rating (2.50) despite 0% late rate — product/service quality is the issue
-- **Home Comfort** (17% late) and **Furniture/Mattress** (14% late) showed the strongest correlation between lateness and poor ratings
-- Late delivery is a contributing factor to low ratings, but not the only cause
+- Orders delivered **on time** averaged a review score of **4.29**
+- Orders delivered **late** averaged only **2.57** — a difference of 1.72 points
+- Late deliveries represent 8% of all orders but have a disproportionate impact on customer satisfaction
+- **Business insight:** Improving delivery punctuality is the single most impactful action Olist can take to raise overall ratings
 
 ---
 
